@@ -7,7 +7,7 @@ The python files:
     --sender.py  
     --receiver.py
 are building a TCP connection with loss recovery mechanism. The TCP connection is built based on a UDP connection, the UDP conneciton system has settings about loss rate and related selections. The UDP simulator is provided by the course and professor. The markdown file:  
-    TCP Loss Recovery.md  
+    TCP over UDP.md  
 is the introduction about the system and codes in the terminal.
 
 The python files:  
