@@ -1,5 +1,6 @@
 -This program works with python and newudpl  
-
+-The program contains: segment.py, sender.py and receiver.py.  
+  
 ## I. The TCP Segment Structure  
 I used the Standard TCP Header to pack and unpack the payload of my packets. In other words, all my
 packets had 20 Byte headers that represented the packet's source port (2 bytes), destination port (2 bytes),
