@@ -23,4 +23,8 @@ The following are introductions about UDP clients and servers code:
 ![image](https://user-images.githubusercontent.com/116987376/199144275-b89bf64f-baf4-43ef-bf7e-3362bcb85815.png)
 
 ## TCP UDP difference
+This project set TCP connections upon UDP connections.
+#### TCP has an additional handshake to the server side (sender side) to set up the connection.
+#### TCP makes sure that every message is received by the receiver, if it's not, send again.
+Which means UDP datagrams can be lost through internet transactions and the sender will never resend it because the sender never knows.
 
