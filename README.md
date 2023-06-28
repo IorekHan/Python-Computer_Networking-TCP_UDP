@@ -24,7 +24,7 @@ Lastly Sender side.
 
 
 ### Link Emulator codes: 
-'''cmd
+```cmd
 $ ./newudpl -vv -o[sendport]:4000 -i[sendport]:* [FLAGS]
 
 Recommand Flags: -O50 , -B50 , -d0.8 , -L10
@@ -32,22 +32,22 @@ Recommand Flags: -O50 , -B50 , -d0.8 , -L10
 Receiver: $ python Receiver.py [receiving_filename(recvfile.txt)] [listening_port] [sender_IP] [sender_port] [log_filename(logfile.txt)]
 
 Sender: $ python Sender.py [sending_filename(sendfile.txt)] [remote_IP] [remote_port] [ack_port] [log_filename(logfile.txt)] [window_size(1)]
-'''
+```
 
 ### Experiment sample code:
 
 Emulator: 
-'''cmd
+```cmd
 ./newudpl -vv -o ‘localhost’:8111 -i ‘localhost’:’*’ -L 10 -B 50 -O 50 -d 0.8'''
-
+```
 Receiver: 
-'''cmd
+```cmd
 python3 Receiver.py recvfile.txt 8111 localhost 8112 logfile.txt'''
-
+```
 Sender: 
-'''cmd
+```cmd
 python3 Sender.py sendfile.txt localhost 41192 8112 logfile.txt 1'''
-
+```
 
 
 
