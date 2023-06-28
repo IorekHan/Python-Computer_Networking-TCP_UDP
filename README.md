@@ -17,9 +17,10 @@ The python files:
     --UDP Server.py  
 are building client and server using TCP/UDP protocal with python code.
 
-The following are introductions about TCP/UDP clients and servers code:
+The following are introductions about UDP clients and servers code:
 
 ## UDP Client & Server
 ![image](https://user-images.githubusercontent.com/116987376/199144275-b89bf64f-baf4-43ef-bf7e-3362bcb85815.png)
 
+## TCP UDP difference
 
